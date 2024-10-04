@@ -1,13 +1,14 @@
 "use client";
 
-import { ShimmerContainer } from "./styled";
+import { ImageShimmer, ShimmerContainer, TitleShimmer } from "./styled";
 
 const ShimmerCard = () => {
   return Array(10)
     .fill(0)
     .map(() => (
       <ShimmerContainer>
-        <div></div>
+        <ImageShimmer></ImageShimmer>
+        <TitleShimmer></TitleShimmer>
       </ShimmerContainer>
     ));
 };
