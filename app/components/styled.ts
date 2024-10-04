@@ -21,6 +21,6 @@ export const ShimmerContainer = styled.div`
   > div {
     height: 300px;
     width: 200px;
-    background-color: grey;
+    background-color: #d6d6d6;
   }
 `;
